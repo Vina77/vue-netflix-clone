@@ -33,5 +33,17 @@ spec:
         ports:
         - containerPort: 8080
         env:
+        - name: VUE_APP_FIREBASE_API_KEY
+          value: ""
+        - name: VUE_APP_FIREBASE_AUTH_DOMAIN
+          value: ""
+        - name: VUE_APP_FIREBASE_PROJECT_ID
+          value: ""
+        - name: VUE_APP_FIREBASE_STORAGE_BUCKET
+          value: ""
+        - name: VUE_APP_FIREBASE_MESSAGING_SENDER_ID
+          value: ""
+        - name: VUE_APP_FIREBASE_APP_ID
+          value: ""
         - name: VUE_APP_TMDB_API_KEY
-          value: "TOKEN_AQUI"
+          value: ""
