@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: cloud-app
-        image:localhost/vue-netflix/ceub:latest
+        image: localhost/vue-netflix/ceub:latest
         ports:
         - containerPort: 8080
   
