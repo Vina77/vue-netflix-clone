@@ -29,7 +29,9 @@ spec:
     spec:
       containers:
       - name: cloud-app
-        image: localhost/vue-netflix/ceub:latest
+        image: localhost/vue-netflix/ceub
         ports:
         - containerPort: 8080
-  
+        env:
+        - name: VUE_APP_TMDB_API_KEY
+          value: "TOKEN_AQUI"
