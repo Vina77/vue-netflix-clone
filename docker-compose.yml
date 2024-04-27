@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  web:
+    image: localhost/vue-neflix/ceub:latest
+    container_name: vue-netflix-app
+    ports:
+      - 8080:8080
+    environment:
+      - VUE_APP_FIREBASE_API_KEY=
+      - VUE_APP_FIREBASE_AUTH_DOMAIN=
+      - VUE_APP_FIREBASE_PROJECT_ID=
+      - VUE_APP_FIREBASE_STORAGE_BUCKET=
+      - VUE_APP_FIREBASE_MESSAGING_SENDER_ID=
+      - VUE_APP_FIREBASE_APP_ID=
+      - VUE_APP_TMDB_API_KEY=
